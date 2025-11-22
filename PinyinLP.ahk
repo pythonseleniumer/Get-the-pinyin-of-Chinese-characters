@@ -60,3 +60,4 @@ class PinyinLP {
         txt := StrGet(ptrData, len, "UTF-8")
         return InStr(txt,',') ? StrSplit(txt, ",") : txt
     }
+}
